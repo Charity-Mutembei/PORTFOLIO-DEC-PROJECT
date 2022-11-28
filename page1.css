@@ -173,7 +173,7 @@ body{
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
-  margin: 0;
+  margin-top: 10%;
 }
 
 .container .card .contentBx .size, .container .card .contentBx .color {
@@ -249,9 +249,8 @@ body{
   opacity: 0;
   transform: translateY(50px);
   transition: 0.5s;
-  margin-top: 10%;
+  margin-top: 20%;
 }
-
 .container .card:hover .contentBx a{
   opacity: 1;
   transform: translateY(0px);
