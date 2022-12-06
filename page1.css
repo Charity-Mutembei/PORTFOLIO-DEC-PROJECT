@@ -316,7 +316,7 @@ body{
     display: inline-block;
     position: relative;
     padding:  10px 20px;
-    color: black;
+    color: white;
     box-sizing: border-box;
     max-width: 300px;
     min-width: 80px;
@@ -349,3 +349,30 @@ body{
   }
 
 /* page three  */
+.third-page{
+  background-color: #000;
+  color: #fff;
+}
+#glow{
+  border-radius: 2px #e5a002;
+}
+#checky{
+background-color: blueviolet;
+width: 10vw;
+height: 2.5vw;
+border-radius: 1vw;
+}
+#bottom-row{
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4vw;
+}
+
+/* 4th page  */
+#blogs{
+  height: 34vw;
+  font-family: 'poppins', sans-serif;
+  font-size: 13vw;
+  text-align: center;
+  margin-top: 5vw;
+}
