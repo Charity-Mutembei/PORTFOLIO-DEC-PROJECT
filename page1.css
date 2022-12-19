@@ -370,9 +370,9 @@ border-radius: 1vw;
 
 /* 4th page  */
 #blogs{
-  height: 34vw;
+  /* height: 34vw; */
   font-family: 'poppins', sans-serif;
-  padding: 4vw;
+ padding: 5vw;
   background-color: black;
 }
 .profile{
