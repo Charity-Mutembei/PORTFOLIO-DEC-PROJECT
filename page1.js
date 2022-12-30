@@ -3,7 +3,7 @@ const waitTime = 500;
 
 const text = [
   "Hey there",
-  "Thought I should let you know I am your link to this project",
+  "scroll to the end",
 ]
 
 var mi = 0;

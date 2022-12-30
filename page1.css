@@ -315,7 +315,7 @@ body{
 .msg-icn {
     display: inline-block;
     position: relative;
-    padding:  10px 20px;
+    padding:  15px 20px;
     color: white;
     box-sizing: border-box;
     max-width: 300px;
@@ -1023,14 +1023,15 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 /* Wrapper */
 .wrapper {
   width: 90%;
-	max-width: 900px;
-	margin: 3em auto;
+	/* max-width: 900px; */
+	/* margin: 3em auto; */
 	text-align: center;
+
 }
 
 /* Badge */
 .badge {
-	/* margin: 1.5em 3em; */
+	margin: 1.5em 3em;
 	width: 6.4em;
 	height: 6.4em;
 	border-radius: 20%;
@@ -1041,9 +1042,9 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 }
 
 .rounded {
-  width: 50px;
-	height: 50px;
-  background: white;
+  width: 70px;
+	height: 70px;
+  background: blueviolet;
   position: absolute;
   margin: 15px 16px auto;
   z-index: 10;
@@ -1051,7 +1052,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
   
 }
-.rounded   i.fab {
+.rounded  i.fab {
   font-size: 2.6em;
   margin-top: 16px;
 }
@@ -1073,11 +1074,18 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 }
 
 .steel {
-  background: rgb(11, 84, 143);
+  background: steelblue;
   color: gold;
 }
 
 .rebecca {
-  background: rebeccapurple;
-  color: rebeccapurple;
+  background: white;
+  color: white;
+}
+
+/* message-arrow  */
+.message-arrow{
+  margin-left: 75%;
+  margin-top: 4%;
+  
 }
