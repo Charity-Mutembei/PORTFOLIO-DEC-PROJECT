@@ -1227,6 +1227,10 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 .see-me{
   height: 40vw;
   background-color: blueviolet;
+  background-image: url('static files/profile/me.jpg');
+  background-repeat: no-repeat;
+  background-size: 40% 120%;
+  margin-bottom: 3%;
 }
 /* #profile-picture img{
   width: 40vw;
@@ -1236,16 +1240,16 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 .profiling{
   width: 30%;
 }
-#profile-picture{
+/* #profile-picture{
 background-image: url('static files/profile/me.jpg');
 background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
     height: 0;
-    padding-top: 66.64%;
+    padding-top: 66.64%; */
      /* (img-height / img-width * container-width) */
                 /* (853 / 1280 * 100) */
-}
+/* } */
 .personal-info{
   padding-left: -10vw;
 }
