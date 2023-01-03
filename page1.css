@@ -705,13 +705,14 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
 /* check round 3 page 3 */
 .check3{
   background-color: blueviolet;
+  margin-top: 7%;
 }
 #check33 {
   position: relative;
   overflow: hidden;
   /* border-radius: 7rem; */
 }
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   #check33 {
     border-radius: 0;
   }
@@ -724,7 +725,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   transition: all 0.25s ease-in;
   transform: translateX(0);
 }
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px)  {
   .slider {
     height: 100vh;
   }
@@ -738,7 +739,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   overflow: hidden;
   position: relative;
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 1000px)  {
   .slider .box {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -755,12 +756,12 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   padding-left: 20rem;
   transform-origin: 0 100%;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 1000px)  {
   .slider .box .bg {
     width: 65%;
   }
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 1000px)  {
   .slider .box .bg {
     width: 100%;
     left: 0;
@@ -780,7 +781,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   pointer-events: none;
   transform: skewX(10deg);
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 1000px)  {
   .slider .box .bg::before {
     width: 120%;
     bottom: 0;
@@ -794,7 +795,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   grid-column: 1/span 1;
   grid-row: 1/-1;
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 1000px) {
   .slider .box .details {
     grid-row: 2/span 1;
     grid-column: 1/-1;
@@ -808,6 +809,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+
 }
 .slider .box .details p {
   display: inline-block;
@@ -816,9 +818,10 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   margin-bottom: 2rem;
   margin-right: 5rem;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 1000px) {
   .slider .box .details p {
     margin-right: 0;
+    margin-top: 50%;
   }
 }
 .slider .box .details button {
@@ -901,7 +904,7 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   grid-row: 1/-1;
   justify-self: center;
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 1000px)  {
   .slider .illustration {
     grid-row: 1/span 1;
     grid-column: 1/-1;
@@ -918,10 +921,10 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   position: relative;
   transform: skewX(-10deg);
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 1000px)  {
   .slider .illustration div {
-    height: 20rem;
-    width: 15rem;
+    height: 40rem;
+    width: 25rem;
   }
 }
 .slider .illustration div::after, .slider .illustration div::before {
