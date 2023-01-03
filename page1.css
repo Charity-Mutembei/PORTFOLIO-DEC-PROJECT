@@ -36,8 +36,8 @@ body{
 }
 .texty{
     font-weight: 800;
-    font-size: 5vw;
-    padding-top: 10vw;
+    font-size: 7vw;
+    padding-top: 6vw;
 }
 #button-show{
     width: 10vw;
@@ -53,17 +53,10 @@ body{
     body{
         overflow-x: hidden;
     }
-    #image1{
-        width: 74vw;
-        height: 50vh;
-    }
     .texty{
-        padding-bottom: 5vw;
         font-size: 10vw;
-        margin-top: 18vw;
     }
     .text1{
-        margin-top: -18%;
         font-size: 4vw;
         font-weight: 200;
         line-height: 6vw;
@@ -74,26 +67,29 @@ body{
     }
     .button{
         text-align: start;
+        padding-bottom: 10%;
+
     }
     #button-show{
-        margin-top: 2vw;
-        width: 50vw;
+        width: 33vw;
         border-radius: 12vw;
         text-align: center;
     }
 }
+#column2{
+  background-image: url('static files/Calm.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    padding-top: 36.64%;
+}
 #second-page{
-    padding: 10vw;
-    /* background-color: #e1ad00; */
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     background-color: blueviolet;
-    margin-top: -.02vw;
 }
 /* second page  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-#second-page-row{
-    margin-top: -13vw;
-}
 .container .card{
   position: relative;
   width: 320px;
@@ -264,9 +260,6 @@ body{
         gap: 5vw 100px;
         margin-top: 1vw;
     }
-    .col-3{
-        margin-left: -7vw;
-    }
     .container .card .contentBx a{
         display: inline-block;
         padding: 10px 20px;
@@ -275,10 +268,9 @@ body{
         text-decoration: none;
         font-weight: 600;
         color: #fff;
-        width: 30vw;
+        width: 50%;
         opacity: 0;
         transform: translateY(50px);
-        transition: 0.5s;
         margin-top: 10%;
       }
 }
@@ -435,7 +427,7 @@ footer{
 }
  
 .social-media a{
-  color: #001a21;
+  color: blueviolet;
   margin-right: 25px;
   font-size: 22px;
   text-decoration: none;
@@ -443,17 +435,18 @@ footer{
 }
  
 .social-media a:hover{
-  color: #ffff;
+  color: rgb(243, 182, 13);
 }
  
 .right-col h1{
   font-size: 26px;
+  color: blueviolet;
 }
  
 .border{
   width: 100px;
   height: 4px;
-  background: #ffff;
+  background: rgb(255, 255, 255);
 }
  
 .newsletter-form{
@@ -479,8 +472,8 @@ footer{
 .btn-4{
   padding: 8px 40px;
   font-size: 16px;
-  color: #000;
-  background: #ffff;
+  color: white;
+  background: blueviolet;
   border: none;
   /* font-weight: 700; */
   outline: none;
@@ -502,7 +495,7 @@ footer{
   justify-content: center;
 }
  
-@media screen and (max-width:960px) {
+@media screen and (max-width:1000px) {
   .footer-container{
     max-width: 600px;
   }
@@ -518,12 +511,16 @@ footer{
 }
  
  
-@media screen and (max-width:700px){
+@media screen and (max-width:1000px){
   .btn{
     margin: 0;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10%;
     }
+  }
+  input.btn-4{
+    margin-top: 5%;
+    font-size: large;
   }
 
 
@@ -1089,3 +1086,158 @@ address, dd, dl, fieldset, figure, form, hgroup, iframe, noscript, p {
   margin-top: 4%;
   
 }
+
+
+/* article page  */
+.article-section{
+  background: blueviolet;
+}
+/**/
+.card__description {
+  top: 0;
+  right: 0;
+  width: 325px;
+  height: 100%;
+  margin-left: 40%;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: -25px;
+  width: 100%;
+  height: 450px;
+  padding: 30px;
+  /* background-color: #ffffff; */
+  background: linear-gradient(to bottom, #e66465 50%, #9198e5 50%);
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.card__rating {
+  display: flex;
+}
+
+.card__price {
+  width: 100%;
+  font-size: 32px;
+  text-align: right;
+}
+
+.card__title,
+.card__subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.card__subtitle {
+  font-size: 16px;
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 35px;
+  color: #ffffff;
+  background-color: #36D1E7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+.card__button,
+.card__info,
+.colors {
+  transform: translateZ(35px);
+}
+
+/**/
+.colors {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.color__title {
+  line-height: 2;
+  font-size: 12px;
+  color: #868686;
+  letter-spacing: 1px;
+}
+
+.color__container {
+  display: flex;
+}
+
+.color__item {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.color__item:nth-of-type(1) {
+  border: 4px solid #36D1E7;
+}
+
+.color__item:nth-of-type(2) {
+  background-color: #394282;
+}
+
+.color__item:nth-of-type(3) {
+  border: 4px solid #6BDA94;
+}
+
+.color__item:nth-of-type(4) {
+  border: 4px solid #FBCB61;
+}
+
+.color__item:nth-of-type(5) {
+  border: 4px solid #6A73CF;
+}
+
+.see-me{
+  height: 40vw;
+  background-color: blueviolet;
+}
+/* #profile-picture img{
+  width: 40vw;
+  height: 35vw;
+  object-fit: none;
+} */
+.profiling{
+  width: 30%;
+}
+#profile-picture{
+background-image: url('static files/profile/me.jpg');
+background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 0;
+    padding-top: 66.64%;
+     /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+.personal-info{
+  padding-left: -10vw;
+}
+
+
+/* #see-me, #second-page, #check3{
+  display: none;
+} */

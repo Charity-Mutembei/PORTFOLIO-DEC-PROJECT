@@ -47,3 +47,14 @@ document.body.addEventListener("mousemove", function(e) {
 });
 
 
+
+// clickevents
+// $("#button-show").click(function(){
+//   $("#see-me").click(); 
+//   return true;
+// });
+
+$('#button-show').click(function(e){
+  e.preventDefault(); //to prevent standard click event
+  $('#see-me').toggle();
+});
